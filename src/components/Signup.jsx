@@ -1,7 +1,7 @@
 import {useEffect, useState} from "react";
 import Error from "./Error";
 import {Input} from "./ui/input";
-import * as Yup from "Yup"
+import * as Yup from 'yup'
 import {
   Card,
   CardContent,
