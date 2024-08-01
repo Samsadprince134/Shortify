@@ -12,7 +12,7 @@ import {Card} from "./ui/card";
 import {useNavigate, useSearchParams} from "react-router-dom";
 import {useEffect, useRef, useState} from "react";
 import Error from "./Error";
-import * as yup from "Yup";
+import * as Yup from "Yup";
 import useFetch from "@/hooks/use-fetch";
 import {createUrl} from "@/db/apiUrls";
 import {BeatLoader} from "react-spinners";
@@ -35,13 +35,13 @@ export function CreateLink() {
     customUrl: "",
   });
 
-  const schema = yup.object().shape({
-    title: yup.string().required("Title is required"),
-    longUrl: yup
+  const schema = Yup.object().shape({
+    title: Yup.string().required("Title is required"),
+    longUrl: Yup
       .string()
       .url("Must be a valid URL")
       .required("Long URL is required"),
-    customUrl: yup.string(),
+    customUrl: Yup.string(),
   });
 
   const handleChange = (e) => {
