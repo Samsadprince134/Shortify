@@ -12,7 +12,7 @@ import {Card} from "./ui/card";
 import {useNavigate, useSearchParams} from "react-router-dom";
 import {useEffect, useRef, useState} from "react";
 import Error from "./Error";
-import * as Yup from "Yup";
+import * as Yup from "yup";
 import useFetch from "@/hooks/use-fetch";
 import {createUrl} from "@/db/apiUrls";
 import {BeatLoader} from "react-spinners";
