@@ -76,11 +76,11 @@ const LinkPage = () => {
             {url?.title}
           </span>
           <a
-            href={`https://shortify-xi-wheat.vercel.app/${link}`}
+            href={`https://www.theshortify.xyz/${link}`}
             target="_blank"
             className="text-3xl sm:text-4xl text-blue-400 font-bold hover:underline cursor-pointer"
           >
-            https://shortify-xi-wheat.vercel.app/{link}
+            https://www.theshortify.xyz/{link}
           </a>
           <a
             href={url?.original_url}
@@ -97,7 +97,7 @@ const LinkPage = () => {
             <Button
               variant="ghost"
               onClick={() =>
-                navigator.clipboard.writeText(`https://shortify-xi-wheat.vercel.app/${link}`)
+                navigator.clipboard.writeText(`https://www.theshortify.xyz/${link}`)
               }
             >
               <Copy />
