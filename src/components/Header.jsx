@@ -26,6 +26,7 @@ function Header() {
         <Link to="/">
           <img src="/logo.png" className="h-16" alt="Shortify Logo" />
         </Link>
+         <div className="text-sm  sm:text-6xl lg:text-4xl text-white text-center font-extrabold">theShortify!!</div>
         <div>
           {!user ? (
             <Link to="/auth">
