@@ -24,7 +24,7 @@ function Header() {
     <>
       <nav className="py-4 flex justify-between items-center">
         <Link to="/">
-          <img src="/logo.png" className="h-16" alt="Shortify Logo" />
+          <img src="/logo2.png" className="h-16" alt="Shortify Logo" />
         </Link>
          <div className="text-sm  sm:text-6xl lg:text-4xl text-white text-center font-extrabold">theShortify!!</div>
         <div>
