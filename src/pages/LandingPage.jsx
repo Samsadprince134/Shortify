@@ -40,7 +40,7 @@ export default function LandingPage() {
         </Button>
       </form>
       <img
-        src="/banner1.jpg" // replace with 2 in small screens
+        src="/banner4.jpg" // replace with 2 in small screens
         className="w-full my-11 md:px-11"
       />
 
