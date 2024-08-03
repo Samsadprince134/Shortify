@@ -1,12 +1,15 @@
-<<<<<<< HEAD
-# React + Vite
+Welcome to the URL Shortener project, a robust web application built using the MERN stack (MongoDB, Express.js, React, and Node.js). This application allows users to convert long URLs into short, manageable links, making sharing and tracking URLs easier.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
-
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
-=======
-# Shortify
->>>>>>> 7a425ba78244523034b46798dace2a4f759223ad
+Features
+URL Shortening: Convert long URLs into short, easy-to-share links.
+Customizable Links: Create custom short links to maintain brand consistency.
+Analytics: Real-time analytics to monitor link performance, including click counts and referral sources.
+User Authentication: Secure user registration and login to manage URLs.
+User Dashboard: Manage your shortened URLs in a user-friendly dashboard.
+Responsive Design: Optimized for use on both desktop and mobile devices.
+Technologies Used
+Frontend: React, Tailwind CSS
+Backend: Node.js, Express.js
+Database: MongoDB
+State Management: Redux Toolkit
+Deployment: Vercel
