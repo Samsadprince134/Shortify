@@ -13,7 +13,7 @@
 
 <h2>Technologies Used</h2>
 <ul>
-    <li><strong>Frontend:</strong> React, Tailwind CSS</li>
+    <li><strong>Frontend:</strong> React, Tailwind CSS & Shadcn/ui</li>
     <li><strong>Backend:</strong> Node.js, Express.js</li>
     <li><strong>Database:</strong> MongoDB</li>
     <li><strong>State Management:</strong> Redux Toolkit</li>
